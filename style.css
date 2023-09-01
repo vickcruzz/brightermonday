@@ -1,0 +1,145 @@
+/* resets */
+/* widlcard */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* utility classes */
+.btn {
+  background-color: rgb(188, 33, 50);
+  color: white;
+  padding: 4px 6px;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.btn:hover {
+  filter: brightness(90%);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 18px;
+}
+header > a > img {
+  height: 45px;
+}
+header nav > button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+header nav > button > img {
+  height: 35px;
+}
+
+.stay-updated {
+  display: flex;
+  padding: 10px 18px;
+}
+.stay-updated .megaphone {
+  height: 30px;
+  padding: 6px;
+  border-radius: 4px;
+  background-color: #f79d17;
+  margin-right: 11px;
+}
+.stay-updated .megaphone img {
+  height: 100%;
+}
+.stay-updated p {
+  color: rgb(55, 65, 81);
+}
+.stay-updated p span {
+  font-weight: bold;
+}
+.stay-updated p a {
+  color: rgb(2, 132, 199);
+}
+/* search area */
+.search-area {
+  background: linear-gradient(133.99deg, #ce1313 2.29%, #f79d17 100%);
+  color: white;
+  padding-top: 48px;
+  padding-bottom: 30px;
+}
+.search-area h1 {
+  text-align: center;
+  margin-bottom: 48px;
+}
+.search-form {
+  padding: 10px 18px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.search-form > * {
+  display: block;
+  width: 100%;
+  margin: 4px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 19px;
+  color: rgb(107, 114, 128);
+}
+.search-form > input[type="submit"] {
+  color: white;
+}
+
+.search-area > p {
+  padding: 20px 18px;
+}
+.search-area .popular-links {
+  display: flex;
+  gap: 16px;
+  width: 90vw;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.search-area .popular-links a {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 4px 6px;
+  border-radius: 4px;
+}
+
+.categories-area h2 {
+  padding: 10px 18px;
+  text-align: center;
+}
+
+.job-categories {
+  padding: 10px 18px;
+}
+.job-categories .category {
+  margin: 10px 0;
+  border: 1px solid #c5c3c3;
+  border-radius: 12px;
+  padding: 18px;
+  text-align: center;
+}
+.job-categories .category:hover {
+  border-color: #6b6b6b;
+}
+.job-categories .category p {
+  margin: 16px 0;
+  color: #6b6b6b;
+}
+.job-categories .category a {
+  color: #0284c7;
+}
+.categories-area .btn {
+  display: block;
+  width: max-content;
+}
+/* utility classes in css--- frameworks like bootstrap */
